@@ -1,0 +1,40 @@
+openapi: '3.0.2'
+info:
+  title: SignalMesh API Platform
+  version: '1.0'
+servers:
+  - url: http://localhost:3000
+
+
+paths:
+  /users:
+    get:
+      responses:
+        '200':
+          description: OK
+
+  /:
+    post:
+      summary: Add a new User
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#'
+          text/plain:
+            schema:
+              type: string
+
+      responses:
+        '201':
+          description: Add User Successfully  
+           
+      
+    
+
+
+
+   
+
+

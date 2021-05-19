@@ -5,3 +5,6 @@
 
 # To Acesss Empolyee Information
    ==> http://localhost:3000
+
+# To Run Swagger
+   ==> http://localhost:3000/doc   
